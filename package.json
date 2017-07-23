@@ -4,7 +4,7 @@
   "description": "react_redux 从零开始",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --inline --progress --colors --watch --compress --content-base ./dist  --port 1000 --host 0.0.0.0",
+    "start": "webpack-dev-server --hot --inline --progress --colors --watch --compress --content-base ./dist  --port 8089 --host 0.0.0.0",
     "build": "webpack --colors --display-error-details  "
   },
   "repository": {
