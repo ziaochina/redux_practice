@@ -6,7 +6,7 @@ import reducer from './reducers'
 import Additon from './containers/addition'
 import Subtraction from './containers/subtraction'
 
-import createHistory from 'history/createBrowserHistory'
+import createHistory from 'history/createHashHistory'
 import { Route } from 'react-router'
 import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-router-redux'
 const history = createHistory()

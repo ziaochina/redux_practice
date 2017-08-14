@@ -4,9 +4,11 @@ import { additionAChange } from '../actions'
 import Addition from '../components/addition'
 import { push } from 'react-router-redux'
 
-const mapStateToProps = (state) => ({
-    ...state.addition
-})
+const mapStateToProps = (state) => {
+    debugger
+    return {
+    ...state.reducer.addition
+}}
 
 const mapDispatchToProps = {
     onAChange: additionAChange,

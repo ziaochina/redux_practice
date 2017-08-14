@@ -1,5 +1,5 @@
 - 安装依赖
-
+npm i --save react-router
 npm i --save history
 npm i --save react-router-redux@5.0.0-alpha.6
 

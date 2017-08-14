@@ -5,7 +5,7 @@ import Subtraction from '../components/subtraction'
 import { push } from 'react-router-redux'
 
 const mapStateToProps = (state) => ({
-  ...state.subtraction
+  ...state.reducer.subtraction
 })
 
 const mapDispatchToProps = {
