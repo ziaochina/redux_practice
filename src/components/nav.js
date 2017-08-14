@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { push } from 'react-router-redux'
-
 const Nav = ({push}) => (
     <div>
         <button onClick={()=>push('./additon')}>加法</button>
